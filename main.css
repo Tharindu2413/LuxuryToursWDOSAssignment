@@ -238,7 +238,7 @@ table {
     height:150px;
 }
 #main1{
-    width: 33%;
+    width: 32%;
     height:150px;
 }
 #main2{
@@ -258,15 +258,15 @@ table {
     height:150px;
 }
 #activity{
-    width:33%;
+    width:32%;
     height:auto;
   }
   #activity1{
-    width:33%;
+    width:32%;
     height:auto;
   }
   #activity2{
-    width:33%;
+    width:32%;
     height:auto;
   }
 
@@ -298,27 +298,27 @@ table {
     height:auto;
 }
 #festival{
-    width:33%;
+    width:32%;
     height:175px;
 }
 #festival2{
-    width:33%;
+    width:32%;
     height:175px;
 }
 #festival1{
-    width:33%;
+    width:32%;
     height:175px;
 }
 #culture{
-    width:33%;
+    width:32%;
     height:150px;
 }
 #culture1{
-    width:33%;
+    width:32%;
     height:150px;
 }
 #culture2{
-    width:33%;
+    width:32%;
     height:150px;
 }
 #Attsub{
@@ -511,4 +511,16 @@ table{
     border: black;
     border: size 5p;
 
+}
+#accp{
+    font-size: 20px;
+}
+#accp0{
+    font-size: 20px;
+}
+#accp1{
+    font-size: 20px;
+}
+#accp2{
+    font-size: 20px;
 }
