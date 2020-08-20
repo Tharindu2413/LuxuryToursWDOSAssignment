@@ -1,0 +1,36 @@
+#container{
+    min-width:240px;
+    max-width:2000px;
+     width:90%;
+    margin:0 auto;
+    background:whitesmoke;
+    
+}
+header,footer{
+    background:lightslategray;
+    padding:1em;
+    color:blanchedalmond;
+    border:solid black 0.1em;
+}
+.set{
+    
+	border:solid black 0.2em;
+    margin: 1em;
+    background-color:darkseagreen;
+    font-size: 1em;
+}
+#chart1{
+    width:50%;
+    height:auto;
+    border:solid black 0.1em;
+  } 
+#bar{
+    width:50%;
+    height:auto;
+    border:solid black 0.1em;
+ } 
+#arrivals{
+    width:30%;
+    height:500px;
+    border:solid black 0.1em;
+}

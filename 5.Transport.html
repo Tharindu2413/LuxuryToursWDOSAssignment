@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--header-->
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is a site about LUXURY TOURS web pages">
+        <title>Transport Service</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#ff0000">
+<link rel="shortcut icon" href="images/favicon.ico">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-TileImage" content="images/mstile-144x144.png">
+<meta name="msapplication-config" content="images/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<link rel="manifest" href="manifest.json">
+
+</head>
+<!--body-->
+<body>
+  <div id="maincontainer">
+    <body style="background-color:powderblue;">
+            <header>
+<u><i><b><h1>LUXURY TOURS</h1></i></u></b>
+            </header> 
+    <!--Navigation bar-->
+         <nav class="mainNav">
+          <ul>
+            <li> <a href="2.Home.html"><span class="navText">Home</span></a></li>
+            <li>  <a href="3.Attraction.html"><span class="navText">Attraction</span></a></li>
+            <li>    <a href="4.Accomadation.html"><span class="navText">Accomadation</span></a>
+              <div class="sub">
+                <ul>
+                  <li><a href="4-1.Arrivals.html" target="blank"><b>ARRIVALS</b></a></li>
+                  <li><a href="4-2.Arrival.html" target="blank"><b>ARRIVALS</b></a></li>
+                </ul>
+               </div>
+               </li>
+             
+             
+            <li>  <a href="5.Transport.html"><span class="navText">Transport</span></a> </li>
+          </ul>
+       </nav>
+     </nav>
+           
+     <div id="boxcontainer">
+      <section id="vehicle" class="vehicle">
+<!--taxi list-->
+        <u><h1>Welcome To Transport Section......</h1></u>
+<h2>Varities</h2>
+<ul type="disc">
+<li>Tuk Tuk</li>
+<li>Mini car</li>
+<li>Luxury car</li>
+<li>Luxury van</li>
+<li>Luxury bus</li>
+</ul>
+<img id="vImg" src="images/tuktuk.jpg" alt="tuktuk">
+
+<img id="vImg" src="images/car.jpg" alt="car">
+<img id="vImg1" src="images/van.jpg" alt="van">
+<img id="vImg2" src="images/bus.jpg" alt="bus">
+</section>
+</div>
+<section id="form">
+<h3>TAXI ODERING SERVICE</h3>
+   <p id="tt">   Taxi type</br>
+      <select id="taxiType" name="taxiType" onchange="TType()" required>
+		
+        <option value="Tuk Tuk">Tuk Tuk</option>
+        <option value="Mini Car">Mini Car</option>
+        <option value="Luxury Van">Luxury Van</option>  
+        <option value="Luxury Car">Luxury Car</option>
+	<option value="Luxury Bus">Luxury Bus</option>
+      </select>
+</p>
+    <p id="ff">  Fuel Efficiency</br>
+  
+      <select  name="fuel" id="Fuel" onchange="fftype()" required>
+	  
+        <option value="High">High</option>
+        <option value="Medium" selected>Medium</option>
+        <option value="Low" >Low</option>
+      </select>
+</p>
+      <p id="ss">Stay</br>
+  
+      <select name="stay" id="Stay" onchange="sttype()" required>
+	 
+        <option value="One Way">One Way</option>
+        <option value="Two Way">Two Way</option>
+        <option value="Over Night">Over night</option>
+      </select>
+  </p>
+  <p id="dd">  
+               Distance</br>
+   
+      <input type="number" min="0" id="Distance" name="distance"  onchange="dvalue(this.value)" required>KM
+
+    </p>
+    <p id="pp">
+      <label for="lname">Pick Up Location</label></br>
+    
+      <input type="text" id="pick" name="location" required >
+  </p>
+<center>
+	<button type="submit" id="btn3" value="Order Favourite" onclick="getfromfavourite()">Favourite order </button>
+	
+    <input class="btn" id="btn4" type="submit" value="Add Order" onclick="addOrder()">
+</center>
+
+
+<div id="c1">
+  <h4 id="order">CURRENT ORDER INFORMATION</h4>
+	 <p> <span class = "label" for="currentTaxi" id="currentTaxi">Current Taxi :_____</span></p>
+	  <p><span class = "label" for="currentTaxi" id="fuelEfficiency">Fuel Efficiency : -_____</span></p>
+	  <p><span class = "label" for="currentTaxi" id="StayCurrent">Stay : -_____</span></p>
+	  <p><span class = "label"  id="currentDistance">Distance : 0</span></p>
+	  <p><span class = "label" for="costofcurrent" id="currentCost">Current cost:-0</span></p>  
+</div>
+<div id="c2">
+	<h5 id="order1">OVER ALL ORDER INFORMATION</h5>
+  <p><span class = "label" for="overallOrder">Current Taxi(s):</span>
+  	<span class = "label" id="currentTax"></span></p>
+  <p><span class = "label" for="overallOrder">Overall Cost:</span>
+   	<span class = "label" id="oo"> 0 </span></p>
+  <p>	<span class = "label" for="overallOrder">Total Distance:</span>
+	<span class = "label" id="td"> 0 </span></p>
+  </div>
+  <center>
+  <button  id="btn1"  value="Add to Favourite"  onclick="favourite()">ADD TO FAVOURITE </button>
+	<button  id="btn2" type="submit" value="Reserve" onclick="reserve()">RESERVE  </button>
+  </center>
+</div>
+    <!--footer-->
+<footer>
+  <nav style="font-size:15px">
+                     
+                        <ul>
+                         <li> <a href="#">About us</a></li>
+                         <li> <a href="#">Privacy and Terms</a></li>
+                          <li>  <a href="#">User Agreement</a></li>
+                            <li>  <a href="#">Contact us</a> </li>
+                          </ul>
+                      
+                
+      <p style="font-size:15px">LUXURY TOURS,Colombo,Sri lanka.Telephone=0112342343,07743434343.</br>
+                                 E-Mail=luxurytours@gmail.com</p>
+                                </nav>
+                              </footer>
+
+                      
+                            
+                            <script src="scripts/main.js"></script>
+</body>
+</html>
