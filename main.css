@@ -1,0 +1,514 @@
+ 
+
+#maincontainer{
+    min-width:250px;
+    max-width:1000px;
+     width:95%;
+    margin:0 auto;
+    background:grey;
+    border:.1em rgb(17,17,17)solid;
+
+ 
+
+}
+/*headers style*/
+h1,h2,h3,h4,h5,h6{
+    font-size: 40px;
+    text-align: center;
+    font-weight:bold;
+    text-decoration: underline;
+}
+/*header*/
+header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background:#3d453e;
+      padding:1em;
+      color:blanchedalmond;
+      text-align: center;
+      font-style: italic;
+      text-decoration:underline;
+      font-weight: bold;
+      
+      
+  }
+#para{
+  font-size: 20px;
+  text-align: center;
+}
+#para1{
+    font-size: 20px;
+    text-align: center;
+  }
+  #para2{
+    font-size: 20px;
+    text-align: center;
+  }
+  #para3{
+    font-size: 20px;
+    text-align: center;
+  }
+#list{
+    list-style: square;
+    font-size:30px;
+}
+/*navigation styles*/
+
+.mainNav ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    display:block;
+    
+    text-align: center;
+    font-size: 18px;
+
+}
+.mainNav{ 
+     width:100%;
+    height:auto;
+
+}
+
+
+.mainNav li{
+    flex-grow:1;
+   
+    border:.1em rgb(17,17,17)solid;
+    
+}
+
+.mainNav > li{
+    float:left;
+    border-bottom:4px #aaa solid;
+    margin-right:1px;
+}
+.mainNav li:hover > a { 
+    background-color:orange; 
+  }
+
+
+.mainNavText{
+    padding-left:80px;
+    padding-right: 80px;
+}
+.mainNav a{
+    background-repeat:no-repeat;
+    background-size:40px auto;
+    background-position: 5px center;;
+    min-height:50px;
+    line-height:50px;
+    text-decoration:none;
+    display:block;
+    color:rgb(17,17,17);
+    background-color: cornflowerblue;
+    text-transform: uppercase;
+    position: relative;
+}
+.sub{
+  display: block;
+   overflow: hidden;
+   column-count: 2;
+   margin-right:2px;
+}
+
+
+.sub li{
+    text-align:center;
+    font-size:20px;
+    font-style: italic;
+    width: 503px;
+    text-align: left;
+    margin-right: auto;
+    
+}
+
+.mainNav li:nth-of-type(1) a{
+    background-image:url(images/home.png);
+}
+.mainNav li:nth-of-type(2) a{
+    background-image:url(images/attraction.png);
+}
+.mainNav li:nth-of-type(3) a{
+    background-image:url(images/acc.jpg);
+}
+.sub li:nth-of-type(1)  a{
+     background-image:none;
+}
+.sub li:nth-of-type(2)  a{
+    background-image:none;
+}
+.mainNav li:nth-of-type(4) a{
+    background-image:url(images/taxi.jpg);
+}
+table{
+    border-collapse: collapse;
+}
+table,th,td{
+    border: 1px solid black ;
+
+}
+.submitbtn{
+    display: flex;
+    justify-content: center;
+    
+}
+.box {
+   
+    
+	border:solid black 0.2em;
+    margin: 1em;
+    background-color:rgb(241, 213, 241);
+    font-size: 1em;
+ }
+ .land {
+    
+    
+	border:solid black 0.2em;
+    margin: 1em;
+    background-color:rgb(150, 94, 255);
+    font-size: 1em;
+     
+   
+ }
+ /*body style*/
+ body {
+    background: url(images/wall.jpg) no-repeat center center fixed;
+    background-size:cover;
+}
+
+
+/*footer style*/
+footer a:hover{
+    background-color:burlywood;
+}
+footer{
+    background:#3d453e;
+    padding:1em;
+    color:blanchedalmond;
+    font-size: 15px;
+    float: bottom;
+    text-align: center;
+}
+footer ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    
+    
+}
+footer a{
+  
+    text-decoration:none;
+    color:black;
+    line-height:1.7;
+}
+/*table style*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 5px solid black;
+    background-position: top;
+  }
+  
+  th, td {
+    text-align:justify;
+    padding: 8px;
+  }
+  /*images styles*/
+  #responsive{
+    width:90%;
+    height:auto;
+}
+#subImg1{
+    width:90%;
+    height:auto;
+  }
+  #subImg2{
+    width:90%;
+    height:auto;
+  } 
+#heritage1{
+    width:15%;
+    height:100px;
+}
+ #main{
+   width: 32%;
+    height:150px;
+}
+#main1{
+    width: 33%;
+    height:150px;
+}
+#main2{
+    width: 32%;
+    height:150px;
+}
+#main3{
+    width: 32%;
+    height:150px;
+}
+#main4{
+    width: 32%;
+    height:150px;
+}
+#main5{
+    width: 32%;
+    height:150px;
+}
+#activity{
+    width:33%;
+    height:auto;
+  }
+  #activity1{
+    width:33%;
+    height:auto;
+  }
+  #activity2{
+    width:33%;
+    height:auto;
+  }
+
+#mainImg{
+    width:49%;
+    height:auto;
+}
+#accImg{
+    width:40%;
+    height:auto;
+    
+} 
+
+#transport{
+    width:70%;
+    height:auto;
+  }
+#vImg{
+    width:49%;
+    height:auto;
+  } 
+ 
+ #vImg1{
+     width:48%;
+     height:auto;
+ }
+ #vImg2{
+    width:50%;
+    height:auto;
+}
+#festival{
+    width:33%;
+    height:175px;
+}
+#festival2{
+    width:33%;
+    height:175px;
+}
+#festival1{
+    width:33%;
+    height:175px;
+}
+#culture{
+    width:33%;
+    height:150px;
+}
+#culture1{
+    width:33%;
+    height:150px;
+}
+#culture2{
+    width:33%;
+    height:150px;
+}
+#Attsub{
+    width:33%;
+    height:auto;
+  } 
+#newsContainer {
+
+    border:.1em rgb(17,17,17)solid;
+    margin: 1em;
+    background-color:rgb(241, 213, 241);
+    font-size: 1em;
+
+ }
+.vehicle {
+
+  
+	border:solid #e0fffc .1em;
+    margin: 1em;
+    background-color:rgb(241, 213, 241);
+    font-size: 1em;
+ }
+ .form{  
+     
+	border:solid #e0fffc .1em;
+    margin: 1em;
+    background-color:rgb(241, 213, 241);
+    font-size: 1em;
+}
+.form{
+  
+    border:black .1em;
+    margin:1em;
+    background-color:lightgreen;
+    font-size: 1em;
+}
+
+.order{
+   
+    border:black .1em;
+    margin:1em;
+    background-color:lightgreen;
+    font-size: 1em;
+}
+
+.accomadation{
+    
+	border:solid black 0.2em;
+    margin: 1em;
+    background-color:rgb(158, 148, 60);
+    font-size: 1em;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+#lu{
+    font-size: 40px;
+    text-align: center;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+
+.table{
+    
+   
+
+        border:solid black 0.2em;
+        margin: 1em;
+        background-color:rgb(114, 82, 150);
+        font-size: 1em;
+     
+    
+}
+.search{
+    background-color:lightgrey;
+    width: 200px;
+    height: 30px;
+    position: relative;
+}
+.submit{
+    background-color: lightcyan;
+    position: relative;
+}
+#p1{
+    font-size: 40px;
+    background-color: burlywood;
+}
+#fuel{
+    width: 200px;
+    height: 40px;
+   
+}
+
+
+#taxi{
+    font-size: 30px;
+}
+#fuel{
+    font-size: 30px;
+}
+#way{
+    font-size: 30px;
+}
+#Distance{
+    font-size: 30px;
+}
+#location{
+    font-size: 30px;
+    width: 300px;
+}
+legend{
+   font-size: 34px;
+  background-color: darkred;
+}
+#new{
+    font-size: 34px;
+}
+#para0{
+    font-size:34px;
+    background-color: darkseagreen;
+     
+}
+#check{
+    width: 200px;
+    height: 50px;
+    background-color: darkseagreen;
+    border:.3em rgb(17,17,17)solid;
+}
+
+#final{
+    width: 200px;
+    height: 50px;
+    background-color: darkseagreen;
+    border:.3em rgb(17,17,17)solid;
+}
+#tt,#ff,#ss,#dd,#pp{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: lightseagreen;
+}
+#taxiType,#Fuel,#Stay{
+    width:230px;
+    height: 50px;
+     font-size: 25px;
+}
+#order,#order1{
+    font-size: 30px;
+    background-color: yellowgreen;
+
+}
+#c1,#c2{
+    background:lightgreen;
+    border:.1em rgb(17,17,17)solid;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#btn1,#btn2,#btn3,#btn4{
+    width: 200px;
+    height:60px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: lightblue;
+}
+#pick{
+    width: 300px;
+    height: 40px;
+}
+#leg{
+    font-size: 40px;
+    text-align: center;
+    background-color: lightseagreen;
+    font-style: italic;
+    font-weight: bold;
+}
+table{
+    border: black;
+    border: size 5p;
+
+}
