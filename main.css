@@ -503,9 +503,9 @@ legend{
     font-weight: bold;
     font-style: italic;
     background-color: lightblue;
-         display: inline-block;
-        margin-left: 200px;
-        margin-right: auto;
+         display: inline-flexbox;
+        margin-left: 100px;
+        margin-right: 100px;
       
 }
 #pick{
@@ -521,7 +521,7 @@ legend{
 }
 table{
     border: black;
-    
+    border-size: 5px;
 
 }
 #accp{
