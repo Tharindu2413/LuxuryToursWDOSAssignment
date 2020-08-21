@@ -1,4 +1,4 @@
-#maincontainer{
+#container{
     min-width:240px;
     max-width:2000px;
      width:90%;
@@ -8,91 +8,56 @@
 
 }
 #chart1{
-    width:70%;
-    height:auto;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
-#main{
-    display: flex;
-    flex-flow:row wrap;
-}
-.new1{
-    border:.1em whitesmoke solid;
-    color:whitesmoke;
-    padding:1em;
-    margin:1em;
-    background-color:rgb(17,17,17);
-    text-align:left;
-   
-    width: 1070px;
-    height: auto;
-    column-count: 2;
-}  
-.new{
-    
-    text-align:left;
-    width: auto;
-    height: auto;
-    column-count: 2;
-    border:.1em whitesmoke solid;
-    color:whitesmoke;
-    padding:1em;
-    margin:1em;
-    background-color:rgb(17,17,17);
-}
-
-
-.box1{
-  
-	border:solid black 0.2em;
-    margin: 1em;
-    background-color:limegreen;
-    font-size: 1em;
-    border-radius: 15px;
-    height: auto;
-   
-}
-
-
-div {
-    border: 3px solid #4CAF50;
-    padding: 5px;
-  }
-  
-  
-  .R1 {
-    overflow: auto;
-  }
-
-
-
-.p1{
-    float: right;
-    width: 300px;
-    border: darkviolet;
-    padding: 10px;
-}
-
-h1,h2,h3,h4{
-    background-color: darkgoldenrod;
-    font-family:'Times New Roman', Times, serif;
-     margin:0.5em 0; 
-    font-size: 43px;
-    color:black;
-    text-align: center;
-    text-decoration: underline;
+#bar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 300px;
 }
 body{
-    background-color:darkturquoise;
+    background-color: chartreuse;
 }
 header{
- background-color: yellow;
-  padding:1em;
- color:black;
- border:solid black 0.1em;
+    font-size: 30px;
+    background-color: blueviolet;
+    text-align: center;
 }
-footer,header{
-    background-color: darkorchid;
-    text-align:center;
-   
+h2,h3,h4,h5{
+    background-color: lightblue;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+#p1{
+    background-color:whitesmoke;
+   column-count: 2;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    background-color: tomato;
+}
+#list{
+    background-color: black;
+    color: whitesmoke;
+    column-count: 3;
+}
+#a1{
+    background-color: black;
+    color: blanchedalmond;
+    column-count: 4;
+}
+#arrivals1,#arrivals2,#arrivals3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 500px;
 }

@@ -233,6 +233,11 @@ table {
     width:15%;
     height:100px;
 }
+#heritage1,#heritage2,#heritage3{
+    width:32%;
+    height:200px;
+
+}
  #main{
    width: 32%;
     height:150px;
@@ -270,13 +275,16 @@ table {
     height:auto;
   }
 
-#mainImg{
+#mainImg,#mainImg1,#mainImg2,#mainImg3{
     width:49%;
     height:auto;
 }
-#accImg{
-    width:40%;
-    height:auto;
+#accImg1,#accImg2,#accImg3,#accImg4,#accImg5,#accImg6,#accImg7,#accImg8,#accImg9,#accImg10,#accImg11,#accImg11,#accImg12{
+    width:32%;
+    height:150px;
+  
+    margin-left: auto;
+    margin-right: auto;
     
 } 
 
@@ -284,7 +292,7 @@ table {
     width:70%;
     height:auto;
   }
-#vImg{
+#vImg0,#vImg{
     width:49%;
     height:auto;
   } 
@@ -321,8 +329,8 @@ table {
     width:32%;
     height:150px;
 }
-#Attsub{
-    width:33%;
+#Attsub,#Attsub1,#Attsub2{
+    width:32%;
     height:auto;
   } 
 #newsContainer {
@@ -495,6 +503,10 @@ legend{
     font-weight: bold;
     font-style: italic;
     background-color: lightblue;
+         display: inline-block;
+        margin-left: 200px;
+        margin-right: auto;
+      
 }
 #pick{
     width: 300px;
@@ -509,7 +521,7 @@ legend{
 }
 table{
     border: black;
-    border: size 5p;
+    
 
 }
 #accp{
@@ -521,6 +533,6 @@ table{
 #accp1{
     font-size: 20px;
 }
-#accp2{
+#accp2,#accp3{
     font-size: 20px;
 }
